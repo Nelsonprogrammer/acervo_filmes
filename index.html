@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Acervo de Filmes</title>
+<link rel="stylesheet" href="css/estilo-base.css">
+<link rel="stylesheet" href="css/estilo-paginas.css">
+</head>
+<body>
+<div class="container">
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-left">
+      <a href="index.html" class="logo">ACERVO DE FILMES</a>
+    </div>
+    
+    <!-- Hamburger -->
+    <div class="hamburger" id="hamburger">
+      &#9776; <!-- ícone de hamburger -->
+    </div>
+  
+    <div class="nav-center" id="nav-links">
+      <a href="index.html" class="active">Início</a>
+      <a href="catalogo.html">Filmes</a>
+      <a href="diretores.html">Diretores</a>
+      <a href="generos.html">Gêneros</a>
+      <a href="curiosidades.html">Curiosidades</a>
+      <a href="sobre.html">Sobre</a>
+    </div>
+  
+    <div class="nav-right">
+      <form class="search-form">
+        <input type="text" placeholder="Procure filmes, diretores, gêneros...">
+        <button type="submit">go</button>
+      </form>
+    </div>
+  </nav>
+  
+
+  <!-- Banner Principal -->
+  <div class="main-banner">
+    <img src="imagens/filmeb.jpg" alt="O Cavaleiro das Trevas" class="banner-poster">
+    <div class="banner-info">
+      <h1>O CAVALEIRO DAS TREVAS</h1>
+      <p>2008 | Ação, Crime, Drama</p>
+      <p>Quando a ameaça conhecida como Coringa causa caos e violência entre os cidadãos de Gotham, Batman é levado ao limite de suas habilidades físicas e psicológicas para combater a injustiça.</p>
+      <div class="banner-buttons">
+        <a href="#" class="btn-watch">ASSISTIR AGORA</a>
+        <a href="#" class="btn-more">MAIS INFORMAÇÕES</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Conteúdo de Filmes -->
+  <div class="content">
+    <h2>Filmes em Destaque</h2>
+
+    <p id="noResults" style="display:none; text-align:center; color:#e63946; font-weight:bold; margin-top:20px;">
+      Nenhum filme encontrado!
+    </p>
+
+    <!-- Tabela 1 -->
+    <table class="filmes-grid">
+      <tr>
+        <td data-titulo="Free Guy" data-ano="2021" data-genero="Ação, Comédia">
+          <img src="imagens/filme1.jpg" alt="Free Guy">
+          <span class="titulo-filme">Free Guy (2021)</span><br>
+          <a href="https://www.youtube.com/results?search_query=Free+Guy+trailer" target="_blank" class="btn-ver">VER</a>
+        </td>
+        <td data-titulo="Código de Alarum" data-ano="2023" data-genero="Ação, Thriller">
+          <img src="imagens/filme2.jpg" alt="Código de Alarum">
+          <span class="titulo-filme">Código de Alarum (2023)</span><br>
+          <a href="https://www.youtube.com/results?search_query=Código+de+Alarum+trailer" target="_blank" class="btn-ver">VER</a>
+        </td>
+        <td data-titulo="It: A Coisa" data-ano="2017" data-genero="Terror, Suspense">
+          <img src="imagens/filme3.jpg" alt="It - A Coisa">
+          <span class="titulo-filme">It: A Coisa (2017)</span><br>
+          <a href="https://www.youtube.com/results?search_query=It+A+Coisa+trailer" target="_blank" class="btn-ver">VER</a>
+        </td>
+        <td data-titulo="Coringa" data-ano="2019" data-genero="Drama, Crime">
+          <img src="imagens/filme4.jpg" alt="Coringa">
+          <span class="titulo-filme">Coringa (2019)</span><br>
+          <a href="https://www.youtube.com/results?search_query=Coringa+trailer" target="_blank" class="btn-ver">VER</a>
+        </td>
+        <td data-titulo="O Exorcista" data-ano="2023" data-genero="Terror, Suspense">
+          <img src="imagens/filme5.jpg" alt="O Exorcista">
+          <span class="titulo-filme">O Exorcista (2023)</span><br>
+          <a href="https://www.youtube.com/results?search_query=O+Exorcista+2023+trailer" target="_blank" class="btn-ver">VER</a>
+        </td>
+      </tr>
+    </table>
+
+    <!-- Tabela 2 -->
+    <table class="filmes-grid">
+      <tr>
+        <td data-titulo="Triple Threat" data-ano="2019" data-genero="Ação, Artes Marciais">
+          <img src="imagens/filme6.jpg" alt="Triple Threat">
+          <span class="titulo-filme">Triple Threat (2019)</span><br>
+          <a href="https://www.youtube.com/results?search_query=Triple+Threat+trailer" target="_blank" class="btn-ver">VER</a>
+        </td>
+        <td data-titulo="O Corvo" data-ano="2024" data-genero="Ação, Fantasia">
+          <img src="imagens/filme7.jpg" alt="O Corvo">
+          <span class="titulo-filme">O Corvo (2024)</span><br>
+          <a href="https://www.youtube.com/results?search_query=O+Corvo+2024+trailer" target="_blank" class="btn-ver">VER</a>
+        </td>
+        <td data-titulo="Bad Boys: O Último Ataque" data-ano="2020" data-genero="Ação, Comédia">
+          <img src="imagens/filme8.jpg" alt="Bad Boys for Life">
+          <span class="titulo-filme">Bad Boys: O Último Ataque (2020)</span><br>
+          <a href="https://www.youtube.com/results?search_query=Bad+Boys+O+Último+Ataque+trailer" target="_blank" class="btn-ver">VER</a>
+        </td>
+        <td data-titulo="Adão Negro" data-ano="2022" data-genero="Ação, Fantasia">
+          <img src="imagens/filme9.jpg" alt="Adão Negro">
+          <span class="titulo-filme">Adão Negro (2022)</span><br>
+          <a href="https://www.youtube.com/results?search_query=Adão+Negro+trailer" target="_blank" class="btn-ver">VER</a>
+        </td>
+      </tr>
+    </table>
+
+  </div>
+<!-- Seção informativa centralizada -->
+<div style="text-align: center; padding: 30px 20px; background-color: #f8f9fa; border-radius: 8px; margin: 25px 0;">
+  <h2 style="color: #1a1a2e; font-size: 26px; margin-bottom: 15px;">Por que explorar nosso acervo?</h2>
+  <p style="font-size: 16px; line-height: 1.6; color: #4a5568; max-width: 600px; margin: 0 auto;">
+    O Acervo de Filmes não é apenas uma lista de títulos — é uma jornada pelo universo cinematográfico. Aqui você encontra:
+  </p>
+  <ul style="list-style: none; padding: 0; margin: 20px auto; max-width: 600px; text-align: center;">
+    <li style="margin: 10px 0; font-size: 15px; color: #2d3748;">Fichas técnicas completas com elenco, direção e curiosidades de bastidores.</li>
+    <li style="margin: 10px 0; font-size: 15px; color: #2d3748;">Contexto histórico e cultural para entender o impacto de cada obra.</li>
+    <li style="margin: 10px 0; font-size: 15px; color: #2d3748;">Recomendações por gênero, época ou diretor para descobrir novos clássicos.</li>
+  </ul>
+
+  <h2 style="color: #1a1a2e; font-size: 26px; margin: 30px 0 15px 0;">Pronto para mergulhar no cinema?</h2>
+  <p style="font-size: 16px; line-height: 1.6; color: #4a5568; max-width: 600px; margin: 0 auto 20px;">
+    Navegue pelas nossas seções e descubra:
+  </p>
+  <ul style="list-style: none; padding: 0; margin: 0 auto 20px; max-width: 600px; text-align: center;">
+    <li style="margin: 8px 0; font-size: 15px; color: #2d3748;">Filmes essenciais de cada década</li>
+    <li style="margin: 8px 0; font-size: 15px; color: #2d3748;">Perfis de diretores visionários</li>
+    <li style="margin: 8px 0; font-size: 15px; color: #2d3748;">A evolução dos gêneros cinematográficos</li>
+    <li style="margin: 8px 0; font-size: 15px; color: #2d3748;">Curiosidades que você nunca imaginou</li>
+  </ul>
+
+  <p style="margin-top: 20px;">
+    <a href="catalogo.html" class="btn-more" style="padding: 12px 24px; font-size: 16px; display: inline-block;">Explore o Catálogo Completo</a>
+  </p>
+</div>
+
+  <footer>
+    &copy; 2025 Acervo de Filmes – Projeto educacional sem fins lucrativos.
+  </footer>
+</div>
+
+<scriptb src="./js/scrip.js"></script>
+</body>
+</html>

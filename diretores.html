@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Diretor – Acervo de Filmes</title>
+  <link rel="stylesheet" href="css/estilo-base.css">
+  <link rel="stylesheet" href="css/estilo-paginas.css">
+  <style>
+
+    .filme-item {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 30px;
+      gap: 20px;
+    }
+
+    .filme-item img {
+      width: 200px;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .filme-info {
+      max-width: 700px;
+    }
+
+    .filme-info h2 {
+      margin: 0 0 10px 0;
+      font-size: 22px;
+      color: #1a1a2e;
+    }
+
+    .filme-info p {
+      margin: 5px 0;
+      line-height: 1.5;
+      font-size: 15px;
+    }
+
+    .filme-info span {
+      font-weight: 600;
+      color: #e63946;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+   
+    <nav class="navbar">
+      <div class="nav-left">
+        <a href="index.html" class="logo">ACERVO DE FILMES</a>
+      </div>
+      <div class="hamburger" id="hamburger">&#9776;</div>
+      <div class="nav-center" id="nav-links">
+        <a href="index.html">Início</a>
+        <a href="catalogo.html">Catálogo</a>
+        <a href="diretores.html" class="active">Diretor</a>
+        <a href="generos.html">Gênero</a>
+        <a href="curiosidades.html">Curiosidade</a>
+        <a href="sobre.html">Sobre</a>
+      </div>
+      <div class="nav-right">
+        <form class="search-form">
+          <input type="text" placeholder="Procure filmes, diretores, gêneros...">
+          <button type="submit">Go</button>
+        </form>
+      </div>
+    </nav>
+
+    <div class="content">
+      <h1>Diretor e Filme</h1>
+
+ 
+      <div class="filme-item">
+        <img src="imagens/filme1.jpg" alt="Free Guy">
+        <div class="filme-info">
+          <h2>Free Guy (2021)</h2>
+          <p>Diretor: <span>Shawn Levy</span></p>
+          <p>Um caixa de banco descobre que é um personagem em um videogame e decide tornar-se o herói de sua própria história.</p>
+        </div>
+      </div>
+
+  
+      <div class="filme-item">
+        <img src="imagens/filme3.jpg" alt="It - A Coisa">
+        <div class="filme-info">
+          <h2>It: A Coisa (2017)</h2>
+          <p>Diretor: <span>Andy Muschietti</span></p>
+          <p>Um grupo de crianças enfrenta seus medos enquanto enfrenta uma entidade maligna que assume a forma de um palhaço.</p>
+        </div>
+      </div>
+
+   
+      <div class="filme-item">
+        <img src="imagens/filme10.jpg" alt="Matriz Ressurreição">
+        <div class="filme-info">
+          <h2>Matriz: Ressurreição (2021)</h2>
+          <p>Diretor: <span>Lana Wachowski</span></p>
+          <p>Neo retorna para um mundo que parece familiar, mas a Matrix evoluiu de formas inesperadas, misturando ação e filosofia.</p>
+        </div>
+      </div>
+
+
+      <div class="filme-item">
+        <img src="imagens/filme4.jpg" alt="Coringa">
+        <div class="filme-info">
+          <h2>Coringa (2019)</h2>
+          <p>Diretor: <span>Todd Phillips</span></p>
+          <p>A transformação de Arthur Fleck em Coringa, explorando temas de saúde mental, sociedade e alienação.</p>
+        </div>
+      </div>
+
+      <p>Autor: Saugineta Chissico | Trabalho para a cadeira de Programação Web | Contato: saugnetachissico12@icloud.com</p>
+    </div>
+
+    <footer>
+      &copy; 2025 Acervo de Filmes – Projeto educacional sem fins lucrativos.
+    </footer>
+  </div>
+
+  <scriptb src="./js/scrip.js"></script>
+</body>
+</html>

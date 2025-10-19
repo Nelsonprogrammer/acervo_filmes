@@ -1,0 +1,84 @@
+
+.content {
+  padding: 0 30px 30px;
+}
+
+  .btn-ver {
+    display: inline-block;
+    background-color: #e63946; 
+    color: white;
+  text-decoration: none;
+  padding: 6px 14px;
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: 8px;
+  transition: background-color 0.2s;
+}
+
+.btn-ver:hover {
+  background-color: #d62839;
+  text-decoration: none;
+}
+h1 {
+    color: #1a1a2e;
+    font-size: 28px;
+    margin: 25px 0 20px;
+    font-weight: 700;
+  }
+  
+  h2 {
+    color: #2d3748;
+    font-size: 22px;
+    margin: 25px 0 15px;
+    font-weight: 600;
+  }
+  
+  p {
+    margin-bottom: 16px;
+    line-height: 1.6;
+  }
+  
+  ul {
+    margin-left: 25px;
+    margin-bottom: 18px;
+  }
+  
+  li {
+    margin-bottom: 8px;
+  }
+  
+ 
+  .filmes-grid {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+  }
+  
+  .filmes-grid td {
+    padding: 10px;
+    text-align: center;
+    vertical-align: top;
+  }
+  
+  .filmes-grid img {
+    width: 140px;
+    height: 210px;
+    object-fit: cover;
+    border: 1px solid #e2e8f0;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    transition: transform 0.2s;
+  }
+  
+  .filmes-grid img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .filmes-grid .titulo-filme {
+    font-size: 13px;
+    color: #4a5568;
+    margin-top: 8px;
+    display: block;
+  }
